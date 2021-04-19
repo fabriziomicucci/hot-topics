@@ -1,0 +1,104 @@
+@media only screen and (min-width: 576px) {
+    
+    figure {
+        float: left;
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .home h2 {
+        order: 1;
+        flex-basis: 100%;
+        font-family: 'Open Sans Condensed', sans-serif;
+         color: white;
+    }
+    
+    .home figure {
+        order: 2;
+        flex-basis: 45%;
+    }
+    
+    .home p {
+        order: 3;
+        flex-basis: 50%;
+         color: white;
+    }
+}
+
+img {
+  width: 100%;
+  padding-right: 2rem;
+
+}
+
+.navbar {
+    justify-content: space-around; 
+    font-size: 1.5rem;
+    display: flex;
+    padding: 15px 32px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Zen Dots', cursive;
+    padding-bottom:3rem;
+      
+}
+
+
+
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    background-color: gainsboro;
+    padding: 1.5rem;
+    color: red;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+     color: white;
+}
+
+footer {
+    text-align: center;
+     color: white;
+}
+
+#masthead {
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: red;
+    
+}
+
+body {
+    background-color: #696969;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.foot-nav a {
+    color: red;
+}
+
+figcaption {
+    color: white;  
+}
